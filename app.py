@@ -6,5 +6,5 @@ st.write("Elaborado por: Adrian Encalada")
 
 archivo=st.file_uploader("cargue su archivo")
 if archivo is not None:
-tabla=pd.read.csv(archivo)
+tabla=pd.read_csv(archivo)
 st.write(tabla)
